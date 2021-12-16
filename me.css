@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navbar .navbar-brand:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+.narrow > p {
+  line-height: 1.8;
+}
+
+.choose {
+  background-color: #ddd;
+}
+
+.service {
+  width: 100%;
+  height: 400px;
+  background: fixed url("../images/download.jpg") center / cover;
+}
+.service p {
+  font-size: 30px;
+  border: 3px solid;
+  margin-top: 11%;
+  transform: translate(0, 50%);
+  padding: 25px;
+  display: inline-block;
+}
+
+.about-content .img {
+  background: url(../images/image.jpg) center/cover;
+  height: 500px;
+}
+
+.about-content .img p {
+  background-color: rgba(32, 32, 32, 0.62);
+  bottom: -17px;
+}
+
+@media screen and (max-width: 600px) {
+  .about-content p {
+    font-size: 18px;
+  }
+  .service p.lead {
+    font-size: 27px;
+    transform: translate(0, 100%);
+  }
+  .narrow p.lead,
+  .product p.lead {
+    font-size: 14px;
+  }
+}
