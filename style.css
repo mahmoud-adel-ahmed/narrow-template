@@ -19,7 +19,7 @@
 .service {
   width: 100%;
   height: 400px;
-  background: fixed url("../images/download.jpg") center / cover;
+  background: fixed url("./images/download.jpg") center / cover;
 }
 .service p {
   font-size: 30px;
@@ -31,7 +31,7 @@
 }
 
 .about-content .img {
-  background: url(../images/image.jpg) center/cover;
+  background: url(./images/image.jpg) center/cover;
   height: 500px;
 }
 
